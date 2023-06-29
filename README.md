@@ -1,7 +1,5 @@
 ## Assignment description
 
----
-
 **Task 1: Implement JavaScript/TypeScript decoder logic**
 
 1. I started by consulting the [User Manual for the device Dragino LHT65](https://www.dragino.com/downloads/downloads/LHT65/UserManual/LHT65_Temperature_Humidity_Sensor_UserManual_v1.8.5.pdf) and concluded that the values need to be interpreted based on the position on the HEX payload.
