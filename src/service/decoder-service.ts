@@ -1,5 +1,5 @@
 class DecoderService {
-  async decodePayload(hexPayload: string) {
+  decodePayload(hexPayload: string) {
     const payload = Buffer.from(hexPayload, 'hex');
     let value: number;
 
