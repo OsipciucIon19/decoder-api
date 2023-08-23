@@ -15,7 +15,7 @@ RUN npm install --verbose
 COPY . .
 
 # Inform Docker that the container will listen on port 3000 at runtime
-EXPOSE 3000
+EXPOSE 8080
 
 # Run the 'npm run build' command inside the container
 RUN npm run build
